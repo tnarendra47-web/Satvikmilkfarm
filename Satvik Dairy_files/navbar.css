@@ -1,0 +1,113 @@
+/* Top Bar Styles */
+.top-bar {
+  font-size: 0.9rem;
+}
+
+.top-bar a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.social-links a {
+  transition: transform 0.3s;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+}
+
+/* Navbar Styles */
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+  transition: all 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.3s;
+  position: relative;
+  color: #333 !important;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #4caf50;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 80%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #4caf50 !important;
+}
+
+.nav-link i {
+  transition: transform 0.3s;
+}
+
+.nav-link:hover i {
+  transform: translateY(-2px);
+}
+
+/* Mobile Menu Styles */
+.navbar-toggler {
+  padding: 0;
+  border: none;
+  color: #333;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler i {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding: 1rem 0;
+    background: white;
+  }
+
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
