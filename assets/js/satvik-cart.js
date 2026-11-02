@@ -39,6 +39,14 @@
     return "";
   }
 
+  function formatPriceLabel(label) {
+    return String(label)
+      .replace(/₹\s+/g, "₹")
+      .replace(/\/per\s+lit(?:er|re)/gi, " per litre")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   function formatAmount(amount, label) {
     var symbol = currencyOf(label);
     return symbol + (Math.round(amount * 100) / 100).toFixed(2);
@@ -240,7 +248,7 @@
       '<button type="button" class="satvik-qty" data-satvik-action="dec" data-id="' + escapeHtml(item.id) + '" aria-label="Decrease quantity of ' + escapeHtml(name) + '">−</button>' +
       '<span class="satvik-qty-value">' + item.qty + "</span>" +
       '<button type="button" class="satvik-qty" data-satvik-action="inc" data-id="' + escapeHtml(item.id) + '" aria-label="Increase quantity of ' + escapeHtml(name) + '">+</button>' +
-      '<button type="button" class="satvik-remove" data-satvik-action="remove" data-id="' + escapeHtml(item.id) + '" aria-label="Remove ' + escapeHtml(name) + ' from cart">Remove</button>' +
+      '<button type="button" class="satvik-remove" data-satvik-action="remove" data-id="' + escapeHtml(item.id) + '" aria-label="Remove ' + escapeHtml(name) + ' from cart"><i class="fal fa-times" aria-hidden="true"></i></button>' +
       "</div></div></li>"
     );
   }
@@ -299,7 +307,7 @@
     return cart.map(function (item, index) {
       var line = index + 1 + ". " + displayName(item);
       if (item.pack && item.name.indexOf(item.pack) === -1) line += "\n   Pack size: " + item.pack;
-      line += "\n   " + item.qty + " x " + item.priceLabel + " = " + formatAmount(item.price * item.qty, item.priceLabel);
+      line += "\n   " + item.qty + " x " + formatPriceLabel(item.priceLabel) + " = " + formatAmount(item.price * item.qty, item.priceLabel);
       return line;
     }).join("\n");
   }
