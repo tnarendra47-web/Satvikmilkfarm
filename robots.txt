@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://satvikmilkfarm.com/sitemap.xml
