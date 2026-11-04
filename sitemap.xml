@@ -32,13 +32,19 @@
   </url>
   <url>
     <loc>https://satvikmilkfarm.com/blog/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://satvikmilkfarm.com/blog/gir-cow-milk-vapi-valsad-price-delivery.html</loc>
     <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://satvikmilkfarm.com/blog/buffalo-milk-price-vapi-valsad.html</loc>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
