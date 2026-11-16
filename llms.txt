@@ -1,0 +1,35 @@
+# Satvik Milk Farm
+
+> Satvik Milk Farm is a dairy farm at Kumbhariya, Borlai, Valsad (Gujarat, India) serving the Vapi and Valsad area. It sells Gir cow milk, buffalo milk, full-fat and skimmed milk, cow and buffalo ghee, curd, chaas, lassi, paneer and farm products such as vermicompost. Current prices are listed on the shop page. Orders are placed through the website cart, which opens WhatsApp, or directly on WhatsApp at +91 82007 18103.
+
+- Email: info@satvikmilkfarm.com
+- Phone / WhatsApp: +91 82007 18103 (https://wa.me/918200718103)
+- Location: Kumbhariya, Borlai, Valsad, Gujarat
+
+## Main pages
+
+- [Home](https://satvikmilkfarm.com/): farm overview
+- [Shop](https://satvikmilkfarm.com/shop.html): products and current prices (source of truth for prices)
+- [About](https://satvikmilkfarm.com/about.html): the farm and its story
+- [Gallery](https://satvikmilkfarm.com/gallery.html): farm and product photos
+- [Contact](https://satvikmilkfarm.com/contact.html): phone, email and location
+- [Blog](https://satvikmilkfarm.com/blog/): guides on milk, prices and ordering in Vapi and Valsad
+
+## Blog articles
+
+- [Gir Cow Milk in Vapi & Valsad: Price, Ordering and What to Know](https://satvikmilkfarm.com/blog/gir-cow-milk-vapi-valsad-price-delivery.html)
+- [Buffalo Milk Price in Vapi & Valsad: ₹80 per Litre, and How to Order](https://satvikmilkfarm.com/blog/buffalo-milk-price-vapi-valsad.html)
+- [Cow Milk vs Buffalo Milk: Which Is Better for Your Family?](https://satvikmilkfarm.com/blog/cow-milk-vs-buffalo-milk.html)
+- [Full-Fat vs Skimmed Milk: Which Should You Order?](https://satvikmilkfarm.com/blog/full-fat-vs-skimmed-milk.html)
+- [Paneer Price in Vapi: Malai Paneer vs Low Fat Paneer](https://satvikmilkfarm.com/blog/paneer-price-vapi-malai-low-fat.html)
+- [Milk Price in Gujarat Today vs Farm-Fresh Milk in Vapi](https://satvikmilkfarm.com/blog/milk-price-gujarat-farm-fresh.html)
+- [How to Check Milk Purity at Home: Simple FSSAI Tests](https://satvikmilkfarm.com/blog/how-to-check-milk-purity.html)
+- [Curd (Dahi) Price 1 kg in Vapi & Valsad: Full Fat vs Non Fat](https://satvikmilkfarm.com/blog/curd-dahi-price-1kg.html)
+- [Chaas & Masala Chaas Price in Vapi: 1 Litre Farm Buttermilk](https://satvikmilkfarm.com/blog/chaas-masala-chaas-vapi.html)
+- [Lassi & Malai Lassi Price in Vapi: 250 ml Farm Lassi](https://satvikmilkfarm.com/blog/lassi-malai-lassi-vapi.html)
+- [Buffalo Ghee vs Cow Ghee: Price, Colour & Difference](https://satvikmilkfarm.com/blog/buffalo-ghee-vs-cow-ghee.html)
+- [How to Make Curd (Dahi) at Home with Farm Milk: Step by Step](https://satvikmilkfarm.com/blog/how-to-make-curd-at-home.html)
+
+## Optional
+
+- [Sitemap](https://satvikmilkfarm.com/sitemap.xml)
