@@ -35,7 +35,6 @@
 
   function currencyOf(label) {
     if (String(label).indexOf("₹") !== -1) return "₹";
-    if (String(label).indexOf("$") !== -1) return "$";
     return "";
   }
 
@@ -68,10 +67,7 @@
     var symbols = cart.map(function (item) {
       return currencyOf(item.priceLabel);
     });
-    var hasRupee = symbols.indexOf("₹") !== -1;
-    var hasDollar = symbols.indexOf("$") !== -1;
-    if (hasRupee && hasDollar) return "see line totals";
-    var symbol = hasRupee ? "₹" : hasDollar ? "$" : "";
+    var symbol = symbols.indexOf("₹") !== -1 ? "₹" : "";
     return symbol + subtotal(cart).toFixed(2);
   }
 
