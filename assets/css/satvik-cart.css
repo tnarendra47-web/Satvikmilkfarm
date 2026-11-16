@@ -102,7 +102,16 @@
 }
 
 #satvik-minicart.shoping__sidebar {
+  z-index: 1050;
   max-width: calc(100vw - 24px);
+}
+
+.offcanvas__info.info-open {
+  z-index: 1050;
+}
+
+.offcanvas-overlay.overlay-open {
+  z-index: 1040;
 }
 
 #satvik-minicart .cartmini__content {
@@ -159,8 +168,16 @@
   font-size: 14px;
 }
 
-.satvik-empty {
-  padding: 24px 20px;
+.cartmini__inner ul li.satvik-empty {
+  display: block;
+  padding: 28px 20px 8px;
+  border-bottom: 0;
+  line-height: 1.5;
+}
+
+.satvik-empty a {
+  color: var(--clr-theme-1, #4caf50);
+  font-weight: 600;
 }
 
 .satvik-page {
