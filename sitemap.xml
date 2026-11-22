@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://satvikmilkfarm.com/blog/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -135,6 +135,12 @@
   <url>
     <loc>https://satvikmilkfarm.com/blog/how-to-make-rabri-at-home.html</loc>
     <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://satvikmilkfarm.com/blog/how-to-make-malai-at-home.html</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
